@@ -1,8 +1,11 @@
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
 import org.junit.Test;
-
+//Compile: javac -cp .:junit-4.12.jar:hamcrest-core-1.3.jar ExampleTest.java
+//Run : java -cp .:junit-4.12.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore ExampleTest
 public class ExampleTest {
-
+  public static void main(String[] args) {
+    
+  }
   @Test
   public void addsTwoNumbersTogether() {
     Example example = new Example();
