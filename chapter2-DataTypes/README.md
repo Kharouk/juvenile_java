@@ -14,17 +14,25 @@ in `/exercises/Strings.java`
 - [x] declare two string variables and store your names in them
 - [x] Print a message that contains your variables* something like `"John and Jane are learning Java!"`
 
-\* *how would you do this in Ruby? How does Java do it?*
+ *how would you do this in Ruby? How does Java do it?*
+---
+- In Ruby it's as simple as:
+```ruby
+first_name = 'Alex'
+second_name = 'Carol'
+puts "#{first_name} and #{second_name}"
+```
+- you don't need to put it in a class. Java you need to specify datatypes, put it inside a class, format the string to interpolate, print line, compile, then run the .class! no biggie.
 
 in `/exercises/Numbers.java`
-- [ ] declare an integer variable with a value
-- [ ] declare a `double` variable with a value
-- [ ] store the result of adding the two together in a variable, and print it
+- [x] declare an integer variable with a value
+- [x] declare a `double` variable with a value
+- [x] store the result of adding the two together in a variable, and print it
 
 in `/exercises/Arrays.java`
-- [ ] create an array of strings and print it (what do you expect to see?)
-- [ ] create an array of numbers and print it
-- [ ] create an `ArrayList` of integers, add some integers to it and print it*
+- [x] create an array of strings and print it (what do you expect to see?)
+- [x] create an array of numbers and print it
+- [x] create an `ArrayList` of integers, add some integers to it and print it*
 
 \* *you'll need to import a library of code to help here.*
 
