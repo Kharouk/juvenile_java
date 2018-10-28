@@ -11,8 +11,8 @@
 ### To complete this challenge, you will need to:
 
 in `/exercises/Strings.java`
-- [ ] declare two string variables and store your names in them
-- [ ] Print a message that contains your variables* something like `"John and Jane are learning Java!"`
+- [x] declare two string variables and store your names in them
+- [x] Print a message that contains your variables* something like `"John and Jane are learning Java!"`
 
 \* *how would you do this in Ruby? How does Java do it?*
 
