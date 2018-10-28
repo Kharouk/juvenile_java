@@ -10,20 +10,26 @@
 ## Instructions
 
 ### To complete this challenge, you will need to:
-- [ ] Use the JUnit github repo as your guide.
-- [ ] install the `.jar` (What's a jar?) that we'll use as a testing framework for Java called JUnit. You'll need the `.jar` of matchers too.
-- [ ] make sure that you save or move the jars to the `/exercises` folder where we'll do our work at the moment
-- [ ] double check that it's working by compiling `Example.java` and `ExampleTest.java` and then running the test class. You should get no failures.
+- [x] Use the JUnit github repo as your guide.
+- [x] install the `.jar` (What's a jar?) that we'll use as a testing framework for Java called JUnit. You'll need the `.jar` of matchers too.
+  - Like a zip file; usually containing compiled Java code (.class) and Java sourcecode (.java).
+  - Can be 'unzipped' with `jar tvf jarfilename.jar`
+- [x] make sure that you save or move the jars to the `/exercises` folder where we'll do our work at the moment
+- [x] double check that it's working by compiling `Example.java` and `ExampleTest.java` and then running the test class. You should get no failures.
 
 *what does `-cp` mean? Run the command `java` to see what options we can pass it*
-- [ ] change the assertion to break the test, re-compile, and then run it. Investigate the stack trace to see what information you can find about the test failure.
+  1. Stands for CLASSPATH.
+  2. When used, specifies the location of classes and packages which are defined by the user
+  
+- [x] change the assertion to break the test, re-compile, and then run it. Investigate the stack trace to see what information you can find about the test failure.
 
 ### Good job so far!! Spend perhaps a few minutes to investigate the new things in this JUnit test.
 
-- [ ] what imports are needed?
-- [ ] investigate what the `@Test` means. How does it work? Where does it come from?
-- [ ] why are all the methods `public void`? What does it mean?
-- [ ] investigate where our assertion method comes from. What else do we have available?
+- [x] what imports are needed?
+  - The Test as well as the Assertions required by the Test
+- [x] investigate what the `@Test` means. How does it work? Where does it come from?
+- [x] why are all the methods `public void`? What does it mean?
+- [x] investigate where our assertion method comes from. What else do we have available?
 
 ## OK. Back to JavaBuzz!
 
